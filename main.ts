@@ -9,6 +9,6 @@ tree.changeMode(LEDMode.Free)
 tree.showRainbow()
 let speed = 1
 basic.forever(function () {
-    tree.rainbowAnimation(speed)
+    tree.rotatePixelColor(speed)
     tree.update()
 })
